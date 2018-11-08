@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.com.androidcustomviews.ui.activity.HuaSuLiveActivity">
+    <Button
+    android:text="点赞"
+    android:id="@+id/btn_dian_zhan"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <ca.com.androidcustomviews.customviews.LovelyLayout
+        android:id="@+id/loveLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ca.com.androidcustomviews.customviews.LovelyLayout>
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:like="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ca.com.androidcustomviews.customviews.LikeView
+        android:visibility="gone"
+        android:id="@+id/likeView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+
+        like:layout_constraintBottom_toBottomOf="parent"
+        like:layout_constraintEnd_toEndOf="parent"
+        like:layout_constraintHorizontal_bias="0.5"
+        like:layout_constraintStart_toStartOf="parent"
+        like:layout_constraintTop_toTopOf="parent"
+
+        like:mainm_img="@drawable/ic_grade_black_24dp"
+        like:manim_type="mtxt"
+        like:mduration="1000"
+        like:mfrom_alpha="1"
+        like:mlike_img="@drawable/ic_favorite_black_24dp"
+        like:mmove_distance="100"
+        like:mstart_move_position="60"
+        like:mtext="这世界很酷(+1)"
+        like:mtext_color="@color/colorAccent"
+        like:mtext_size="14"
+        like:mto_alpha="0" />
+
+    <ca.com.androidcustomviews.customviews.LikeView
+        android:visibility="gone"
+        android:id="@+id/likeView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginTop="8dp"
+        like:layout_constraintBottom_toBottomOf="parent"
+        like:layout_constraintEnd_toEndOf="parent"
+        like:layout_constraintTop_toTopOf="parent"
+        like:layout_constraintVertical_bias="0.498"
+        like:mainm_img="@drawable/ic_grade_black_24dp"
+        like:manim_type="mimg"
+        like:mduration="1000"
+        like:mfrom_alpha="1"
+        like:mlike_img="@drawable/ic_grade_black_24dp"
+        like:mmove_distance="100"
+        like:mstart_move_position="60"
+        like:mtext="这世界很酷(+1)"
+        like:mtext_color="@color/colorAccent"
+        like:mtext_size="14"
+        like:mto_alpha="0" />
+
+    <ca.com.androidcustomviews.customviews.LingDangAnimationView
+
+        android:id="@+id/lingdang"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+
+        android:layout_marginStart="8dp"
+        android:text="铃铛"
+        like:layout_constraintEnd_toEndOf="parent"
+        like:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>
