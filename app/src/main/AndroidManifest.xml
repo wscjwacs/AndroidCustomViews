@@ -26,7 +26,8 @@
         <activity android:name=".ui.activity.LingDangActivity" />
         <activity android:name=".ui.activity.CBBActivity" />
         <activity android:name=".ui.activity.SplashActivity" />
-        <activity android:name=".ui.activity.RedCarpActivity"></activity>
+        <activity android:name=".ui.activity.RedCarpActivity" />
+        <activity android:name=".ui.activity.LockPatternActivity"></activity>
     </application>
 
 </manifest>

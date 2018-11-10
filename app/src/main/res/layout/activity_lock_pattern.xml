@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ca.com.androidcustomviews.ui.activity.LockPatternActivity">
+
+    <TextView
+        android:textSize="20sp"
+        android:gravity="center"
+        android:id="@+id/btn_retry"
+        android:text="重试"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+    <ca.com.androidcustomviews.customviews.lockview.LockPatternView
+        android:id="@+id/lpv_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
