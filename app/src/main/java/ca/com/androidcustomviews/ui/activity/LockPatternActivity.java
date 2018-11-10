@@ -18,6 +18,7 @@ public class LockPatternActivity extends BaseActivity implements LockPatternView
     @Override
     protected int initContentView() {
         return  R.layout.activity_lock_pattern;
+
     }
 
     @Override
