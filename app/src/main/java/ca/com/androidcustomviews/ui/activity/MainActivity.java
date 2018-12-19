@@ -62,8 +62,8 @@ public class MainActivity extends BaseActivity implements BaseRecyclerAdapter.On
         typeBeans.add(new TypeBean("防雅虎新闻摘要加载动画", 6));
         typeBeans.add(new TypeBean("灵动的红鲤鱼动画", 7));
         typeBeans.add(new TypeBean("Touch事件分发 - 九宫格解锁", 8));
-        typeBeans.add(new TypeBean("粘性小球", 9));
-        typeBeans.add(new TypeBean("banner", 10));
+        typeBeans.add(new TypeBean("仿抖音加载框之两颗小球转动效果", 9));
+        typeBeans.add(new TypeBean("登录按钮效果切换", 10));
         typeBeans.add(new TypeBean("吸顶效果--一行代码实现", 11));
         return typeBeans;
     }
@@ -98,13 +98,13 @@ public class MainActivity extends BaseActivity implements BaseRecyclerAdapter.On
             case 8:
                 startActivity(new Intent(MainActivity.this, LockPatternActivity.class));
                 break;
-//            case 9:
-//                startActivity(new Intent(MainActivity.this, DragBallActivity.class));
-//                break;
-//            case 10:
-//                startActivity(new Intent(MainActivity.this, BannerActivity.class));
-//                break;
-//            case 11:
+            case 9:
+                startActivity(new Intent(MainActivity.this, DYLoadingActivity.class));
+                break;
+            case 10:
+                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                break;
+ //           case 11:
 //                startActivity(new Intent(MainActivity.this, HoverItemActivity.class));
 //                break;
         }

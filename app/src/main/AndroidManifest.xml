@@ -27,7 +27,9 @@
         <activity android:name=".ui.activity.CBBActivity" />
         <activity android:name=".ui.activity.SplashActivity" />
         <activity android:name=".ui.activity.RedCarpActivity" />
-        <activity android:name=".ui.activity.LockPatternActivity"></activity>
+        <activity android:name=".ui.activity.LockPatternActivity" />
+        <activity android:name=".ui.activity.DYLoadingActivity"/>
+        <activity android:name=".ui.activity.LoginActivity"/>
     </application>
 
 </manifest>

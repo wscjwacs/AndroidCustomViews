@@ -146,9 +146,8 @@ public class LockPatternView extends View {
     }
 
     private void drawShow(Canvas canvas) {
-        for (int i=0;i<3;i++){
-            Point[] points = mPoints[i];
-            for (Point point: points) {
+        for (int i=0;i<3;i++){//每次都遍历九个点，找到当前选中的那个点，改变点的颜色，以及状态。
+            for (Point point:  mPoints[i]) {
                 if (point.statusIsNormal()) { //正常状态
                     mNormalPaint.setColor(mOuterNormalColor);
                     canvas.drawCircle(point.centerX, point.centerY, mDotRadius, mNormalPaint);
