@@ -195,6 +195,7 @@ public class ProgressButton extends View {
 
             }
 
+
             @Override
             public void onAnimationEnd(Animation animation) {
 
