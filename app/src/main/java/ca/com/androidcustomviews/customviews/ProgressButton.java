@@ -20,7 +20,7 @@ import android.view.animation.Transformation;
  */
 public class ProgressButton extends View {
     private int progerssButtonDuration = 800;
-    private int scaleAnimationDuration = 1000;
+    private int scaleAnimationDuration = 800;
     private int rotateAnimationDuration = 500;
 
 

@@ -102,11 +102,12 @@ public class MainActivity extends BaseActivity implements BaseRecyclerAdapter.On
                 startActivity(new Intent(MainActivity.this, DYLoadingActivity.class));
                 break;
             case 10:
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+               // startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                startActivity(new Intent(MainActivity.this, ProgressButtonActivity.class));
                 break;
- //           case 11:
-//                startActivity(new Intent(MainActivity.this, HoverItemActivity.class));
-//                break;
+            case 11:
+           //     startActivity(new Intent(MainActivity.this, ProgressButtonActivity.class));
+                break;
         }
     }
 

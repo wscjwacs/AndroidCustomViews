@@ -30,6 +30,7 @@
         <activity android:name=".ui.activity.LockPatternActivity" />
         <activity android:name=".ui.activity.DYLoadingActivity"/>
         <activity android:name=".ui.activity.LoginActivity"/>
+        <activity android:name=".ui.activity.ProgressButtonActivity"/>
     </application>
 
 </manifest>
