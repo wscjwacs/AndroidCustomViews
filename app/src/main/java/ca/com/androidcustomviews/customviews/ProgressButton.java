@@ -21,7 +21,7 @@ import android.view.animation.Transformation;
 public class ProgressButton extends View {
     private int progerssButtonDuration = 800;
     private int scaleAnimationDuration = 1000;
-    private int rotateAnimationDuration = 400;
+    private int rotateAnimationDuration = 500;
 
 
     private Paint paintRectF;
@@ -183,8 +183,8 @@ public class ProgressButton extends View {
 
             int width = wm.getDefaultDisplay().getWidth();
 
-            mProgerssScaleAnim = new ScaleAnimation(1.0f, width / getMeasuredHeight() * 3.5f,
-                    1.0f, width / getMeasuredHeight() * 3.5f,
+            mProgerssScaleAnim = new ScaleAnimation(1.0f, width / getMeasuredHeight() * 4.5f,
+                    1.0f, width / getMeasuredHeight() * 4.5f,
                     Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
         }
         mProgerssScaleAnim.setDuration(scaleAnimationDuration);
